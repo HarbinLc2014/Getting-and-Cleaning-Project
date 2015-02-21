@@ -119,6 +119,8 @@ for (i in 1:length(colNames))
   colNames[i] = gsub("^(f)","Freq",colNames[i])
   colNames[i] = gsub("gravity","Gravity",colNames[i])
   colNames[i] = gsub("angle","Angle",colNames[i])
+  colNames[i] = gsub("tBody","TimeBody",colNames[i])
+  colNames[i] = gsub("BodyBody","Body",colNames[i])
 }
 
 
